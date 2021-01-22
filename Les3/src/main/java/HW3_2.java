@@ -77,6 +77,7 @@ public class HW3_2 {
                     sc.nextLine();
                 }
         }while(!exit);
+        sc.close();
     }//end of main
     public static int randomGenerator (int maxValue){
         Random random = new Random();
